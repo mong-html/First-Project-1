@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>SweetScoops - Ice Cream Shop</title>
+</head>
+<body>
+    <!-- Top Bar Start -->
+        <section id="top-bar">
+            <div class="container">
+               <div class="row">
+                   <p class="top-bar-text col-10">
+                       🍦 <span>Summer Special:</span>  Buy 2 Get 1 Free on all scoops!  |  Fresh & Natural Ingredients
+                   </p>
+                   <div class="social-icons col-2">
+                       <a href="#">
+                           <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                               <path d="M0 0h24v24H0z" fill="none" />
+                               <path fill="currentColor" d="M12 2.06c-5.5 0-10 4.5-10 10c0 4.94 3.61 9.06 8.33 9.89l.06-.05h-.06v-7.06h-2.5v-2.78h2.5V9.84c0-2.5 1.61-3.89 3.89-3.89c.72 0 1.5.11 2.22.22v2.56h-1.28c-1.22 0-1.5.61-1.5 1.39v1.94h2.67l-.44 2.78h-2.22v7.06h-.06l.06.05c4.72-.83 8.33-4.94 8.33-9.89c0-5.5-4.5-10-10-10" /></svg></span>
+                       </a>
+                       <a href="#">
+                           <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                               <path d="M0 0h24v24H0z" fill="none" />
+                               <path fill="currentColor" fill-rule="evenodd" d="M7.465 1.066C8.638 1.012 9.012 1 12 1s3.362.013 4.534.066s1.972.24 2.672.511c.733.277 1.398.71 1.948 1.27c.56.549.992 1.213 1.268 1.947c.272.7.458 1.5.512 2.67C22.988 8.639 23 9.013 23 12s-.013 3.362-.066 4.535c-.053 1.17-.24 1.97-.512 2.67a5.4 5.4 0 0 1-1.268 1.949c-.55.56-1.215.992-1.948 1.268c-.7.272-1.5.458-2.67.512c-1.174.054-1.548.066-4.536.066s-3.362-.013-4.535-.066c-1.17-.053-1.97-.24-2.67-.512a5.4 5.4 0 0 1-1.949-1.268a5.4 5.4 0 0 1-1.269-1.948c-.271-.7-.457-1.5-.511-2.67C1.012 15.361 1 14.987 1 12s.013-3.362.066-4.534s.24-1.972.511-2.672a5.4 5.4 0 0 1 1.27-1.948a5.4 5.4 0 0 1 1.947-1.269c.7-.271 1.5-.457 2.67-.511m8.98 1.98c-1.16-.053-1.508-.064-4.445-.064s-3.285.011-4.445.064c-1.073.049-1.655.228-2.043.379c-.513.2-.88.437-1.265.822a3.4 3.4 0 0 0-.822 1.265c-.151.388-.33.97-.379 2.043c-.053 1.16-.064 1.508-.064 4.445s.011 3.285.064 4.445c.049 1.073.228 1.655.379 2.043c.176.477.457.91.822 1.265c.355.365.788.646 1.265.822c.388.151.97.33 2.043.379c1.16.053 1.507.064 4.445.064s3.285-.011 4.445-.064c1.073-.049 1.655-.228 2.043-.379c.513-.2.88-.437 1.265-.822c.365-.355.646-.788.822-1.265c.151-.388.33-.97.379-2.043c.053-1.16.064-1.508.064-4.445s-.011-3.285-.064-4.445c-.049-1.073-.228-1.655-.379-2.043c-.2-.513-.437-.88-.822-1.265a3.4 3.4 0 0 0-1.265-.822c-.388-.151-.97-.33-2.043-.379m-5.85 12.345a3.669 3.669 0 0 0 4-5.986a3.67 3.67 0 1 0-4 5.986M8.002 8.002a5.654 5.654 0 1 1 7.996 7.996a5.654 5.654 0 0 1-7.996-7.996m10.906-.814a1.337 1.337 0 1 0-1.89-1.89a1.337 1.337 0 0 0 1.89 1.89" clip-rule="evenodd" /></svg>
+                   </span>
+                       </a>
+                       <a href="#">
+                           <span><svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" viewBox="0 0 448 512">
+                               <path d="M0 0h448v512H0z" fill="none" />
+                               <path fill="currentColor" d="M448 209.91a210.06 210.06 0 0 1-122.77-39.25v178.72A162.55 162.55 0 1 1 185 188.31v89.89a74.62 74.62 0 1 0 52.23 71.18V0h88a121 121 0 0 0 1.86 22.17A122.18 122.18 0 0 0 381 102.39a121.43 121.43 0 0 0 67 20.14Z" /></svg></span>
+                       </a>
+                   </div>
+               </div>
+             </div>
+        </section>
+    <!-- Top Bar End -->
+    <!-- Header Nav Start -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <div class="logo col-2">
+        <a class="navbar-brand" href="index.html">
+            <img src="./assets/img/Ice  Shop logo.png" alt="">
+        </a>
+    </div>
+    <div class="collapse navbar-collapse col-8">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">Speacials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">Content</a>
+        </li>
+      </ul>
+    </div>
+    <div class="btn col-2">
+        <a href="#"> <span><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none">
+		<path fill="currentColor" d="M3 2.5a.5.5 0 0 0 0 1zM5 3l.499-.038A.5.5 0 0 0 5 2.5zm16 3l.497.055A.5.5 0 0 0 21 5.5zM5.23 6l-.498.038zm13.109 9.119l.035.498zm-10.355.74l-.036-.5zM3 3.5h2v-1H3zm5.02 12.857l10.354-.74l-.071-.997l-10.355.74zM20.68 13.4l.817-7.345l-.994-.11l-.816 7.344zM4.502 3.038l.231 3l.997-.076l-.23-3zm.231 3l.617 8.017l.997-.077l-.617-8.016zM21 5.5H5.23v1H21zm-2.626 10.117a2.5 2.5 0 0 0 2.307-2.217l-.994-.11a1.5 1.5 0 0 1-1.384 1.33zM7.948 15.36a1.5 1.5 0 0 1-1.602-1.382l-.997.077a2.5 2.5 0 0 0 2.67 2.302z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M11.5 11h3" />
+		<path stroke="currentColor" stroke-linejoin="round" stroke-width="1.5" d="M17.5 20.5h.01v.01h-.01zm-9 0h.01v.01H8.5z" /></g></svg>
+        </span> Order Now</a>
+    </div>
+  </div>
+</nav>
+        </header>
+    <!-- Header Nav End -->
+        <main>
+            <!-- Hero Section Start -->
+            <section id="hero-Section">
+                <div class="container">
+                    <div class="row">
+                        <div class="hero-Title col-6">
+                            <p class="pg1">100% Natural & Premium Quality 💖</p>
+                            <h1>Life is Better <span> with Ice Cream!</span></h1>
+                            <p class="pg2">Indulge in happiness with our delicious, creamy and <br> refreshing ice creams made with love just for you.</p>
+                            <div class="btn hero-btn">
+                                <a class="" href="#">  Explore Flavors <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.25 12h15.5M14 6.25L19.75 12L14 17.75" /></svg>
+                                </span></a>
+                                <a class="btn2" href="#"> <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 32 32">
+	<path d="M0 0h32v32H0z" fill="none" />
+	<path fill="currentColor" d="M30.47 9.14h-1.52V6.09h-1.53V4.57H25.9V3.05h-3.05V1.52h-3.04V0h-7.62v1.52H9.14v1.53H6.09v1.52H4.57v1.52H3.04v3.05H1.52v3.05H0v7.62h1.52v3.05h1.52v3.04h1.53v1.53h1.52v1.52h3.05v1.53h3.05V32h7.62v-1.52h3.04v-1.53h3.05v-1.52h1.52V25.9h1.53v-3.04h1.52v-3.05H32v-7.62h-1.53Zm-7.62 7.62h-1.52v1.53h-1.52v1.52h-1.53v1.52h-1.52v1.53h-3.05v1.52h-1.52V7.62h1.52v1.52h3.05v1.53h1.52v1.52h1.53v1.52h1.52v1.53h1.52Z" /></svg>
+                                </span> Watch Our Story</a>
+                            </div>
+                            <div class="token">
+                                <div class="token-icon">
+                                    <h4>🍦 25+</h4>
+                                    <p>Delicious Flavors</p>
+                                </div>
+                                <div class="token-icon">
+                                    <h4>💖 100%</h4>
+                                    <p>Natural Ingredients</p>
+                                </div>
+                                <div class="token-icon">
+                                    <h4>🍨 10K+</h4>
+                                    <p>Happy Customers</p>
+                                </div>
+                                <div class="token-icon">
+                                    <h4>⭐ 5★</h4>
+                                    <p>Customer Rating</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hero-Img col-6">
+                            <img src="./assets/img/hero img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Hero Section End -->
+            <!-- Our Popular Section Start -->
+            <section id="our-popular">
+                <div class="container">
+                    <h4> 🍦 Everyone has a flavor of happiness 🍦</h4>
+                    <h2>Our <span>Popular</span> Flavors</h2>
+                    <p>A flavor for every mood. Discover your favorite one today!</p>
+
+                    <div class="row">
+                        <div class="card">
+                            <img src="./assets/img/Ice card1.png" alt="">
+                            <div class="card-title">
+                                <h3>Strawberry Bliss</h3>
+                                <p>Sweet & Fruity</p>
+                                <a href="#">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.25 12h15.5M14 6.25L19.75 12L14 17.75" /></svg></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/img/Ice card2.png" alt="">
+                            <div class="card-title">
+                                <h3>Cookies & Cream</h3>
+                                <p>Creamy & Crunchy</p>
+                                <a href="#">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.25 12h15.5M14 6.25L19.75 12L14 17.75" /></svg></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/img/Ice card3.png" alt="">
+                            <div class="card-title">
+                                <h3>Chocolate Fudge</h3>
+                                <p>Rich & Delicious</p>
+                                <a href="#">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.25 12h15.5M14 6.25L19.75 12L14 17.75" /></svg></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/img/Ice card4.png" alt="">
+                            <div class="card-title">
+                                <h3>Cotton Candy</h3>
+                                <p>Fun & Sweet</p>
+                                <a href="#">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.25 12h15.5M14 6.25L19.75 12L14 17.75" /></svg></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/img/Ice card5.png" alt="">
+                            <div class="card-title">
+                                <h3>Mango Delight</h3>
+                                <p>Tropical & Fresh</p>
+                                <a href="#">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.25 12h15.5M14 6.25L19.75 12L14 17.75" /></svg></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dots-navigation">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    </div>
+                </div>
+            </section>
+            <!-- Our Popular Section End -->
+            <!-- Special Offer Banner Section Start -->
+            <section id="specials">
+                <div class="container">
+                    <img src="./assets/img/Ice Special Offer.png" alt="">
+                </div>
+            </section>
+            <!-- Special Offer Banner Section End -->
+            <!-- About Section Start -->
+              <section id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-img col-6">
+                            <img src="./assets/img/Ice about img.png" alt="">
+                        </div>
+                        <div class="about-text col-6">
+                            <p>Our Story — — —</p>
+                            <h3>Made with <span>Love,</span> <br> Just for You</h3>
+                            <p>At SweetScoops, we believe ice cream is more than just a dessert—it's a feeling! That's why we use only the freshest ingredients and craft every scoop with love and care.</p>
+                            <div class="row">
+                                <div class="card">
+                                    <img src="./assets/img/ice pic.png" alt="">
+                                    <h4>Fresh Ingredients</h4>
+                                    <p>Sourced daily for <br> best quality.</p>
+                                </div>
+                                <div class="card">
+                                    <img src="./assets/img/ice pic.png" alt="">
+                                    <h4>Expert Makers</h4>
+                                    <p>Crafted by ice cream <br> lovers.</p>
+                                </div>
+                                <div class="card">
+                                    <img src="./assets/img/ice pic.png" alt="">
+                                    <h4>Hygienic & Safe</h4>
+                                    <p>We care about your <br> health.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </section>
+            <!-- About Section End -->
+            <!-- SweetScoops Section Start -->
+              <section id="SweetScoops">
+                <div class="container">
+                    <h3>Why Choose <span>SweetScoops?</span></h3>
+                    <div class="row">
+                            <div class="card">
+                                    <img src="./assets/img/sweets.png" alt="">
+                                    <h4>Premium Quality</h4>
+                                    <p>We use only the best <br> ingredients.</p>
+                            </div>
+                            <div class="card">
+                                    <img src="./assets/img/sweets.png" alt="">
+                                    <h4>Wide Variety</h4>
+                                    <p>Lots of flavors to satisfy <br> every craving.</p>
+                            </div>
+                            <div class="card">
+                                    <img src="./assets/img/sweets.png" alt="">
+                                    <h4>Affordable Prices</h4>
+                                    <p>Great taste at prices <br> you'll love.</p>
+                            </div>
+                            <div class="card">
+                                    <img src="./assets/img/sweets.png" alt="">
+                                    <h4>Fast Delivery</h4>
+                                    <p>Quick and fresh delivery <br> to your door.</p>
+                            </div>
+                            <div class="card">
+                                    <img src="./assets/img/sweets.png" alt="">
+                                    <h4>Happy Customers</h4>
+                                    <p>Thousands of smiles <br> and counting!</p>
+                            </div>
+                    </div>
+                    
+
+                    </div>
+
+                </div>
+              </section>
+            <!-- SweetScoops Section End -->
+            <!-- Customers Section Start -->
+             <section id="customers">
+                <div class="container">
+                    <h3>What Our <span>Customers</span> Say 💖</h3>
+                    <div class="row">
+                            <div class="card">
+                                <span>★★★★★</span>
+                                <p>"The best ice cream I've ever had! The <br> flavors are so rich and creamy."</p>
+                                <img src="./assets/img/customer review.png" alt="">
+                            </div>
+                            <div class="card">
+                                <span>★★★★★</span>
+                                <p>"Love the variety and the quality. My family's favorite place now!"</p>
+                                <img src="./assets/img/customer review.png" alt="">
+                            </div>
+                            <div class="card">
+                                <span>★★★★★</span>
+                                <p>"Fast delivery and amazing taste. Highly recommended!"</p>
+                                <img src="./assets/img/customer review.png" alt="">
+                            </div>
+                    </div>
+                </div>
+             </section>
+            <!-- Customers Section End -->
+            <!-- Updated Section Start -->
+             <section id="updated">
+                <div class="container">
+                    <div class="row">
+                        <div class="updatedlogo col-3">
+                            <img src="./assets/img/updatelogo.png" alt="">
+                        </div>
+                        <div class="search-bar col-6">
+                            <input type="email" placeholder="Enter your email">
+                            <div class="btn">
+                                <a href="#">Subscribe</a>
+                            </div>
+                        </div>
+                        <div class="updatelogo2 col-3">
+                            <img src="./assets/img/updatelogo2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+             </section>
+            <!-- Updated Section End -->
+        </main>
+        <footer>
+            <section id="quick-links">
+                    <div class="container">
+                            <div class="quick-section ">
+                                    <div class="footer-logo">
+                                        <img src="./assets/img/Sweet logo foote.png" alt="">
+                                        <p>Scooping happiness, one spoon at a time. Thank you for being part of our sweet journey!</p>
+                                        <div class="social-icons">
+                                                               <a href="#">
+                                                                   <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                       <path d="M0 0h24v24H0z" fill="none" />
+                                       <path fill="currentColor" d="M12 2.06c-5.5 0-10 4.5-10 10c0 4.94 3.61 9.06 8.33 9.89l.06-.05h-.06v-7.06h-2.5v-2.78h2.5V9.84c0-2.5 1.61-3.89 3.89-3.89c.72 0 1.5.11 2.22.22v2.56h-1.28c-1.22 0-1.5.61-1.5 1.39v1.94h2.67l-.44 2.78h-2.22v7.06h-.06l.06.05c4.72-.83 8.33-4.94 8.33-9.89c0-5.5-4.5-10-10-10" /></svg></span>
+                                                               </a>
+                                                               <a href="#">
+                                                                   <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                       <path d="M0 0h24v24H0z" fill="none" />
+                                       <path fill="currentColor" fill-rule="evenodd" d="M7.465 1.066C8.638 1.012 9.012 1 12 1s3.362.013 4.534.066s1.972.24 2.672.511c.733.277 1.398.71 1.948 1.27c.56.549.992 1.213 1.268 1.947c.272.7.458 1.5.512 2.67C22.988 8.639 23 9.013 23 12s-.013 3.362-.066 4.535c-.053 1.17-.24 1.97-.512 2.67a5.4 5.4 0 0 1-1.268 1.949c-.55.56-1.215.992-1.948 1.268c-.7.272-1.5.458-2.67.512c-1.174.054-1.548.066-4.536.066s-3.362-.013-4.535-.066c-1.17-.053-1.97-.24-2.67-.512a5.4 5.4 0 0 1-1.949-1.268a5.4 5.4 0 0 1-1.269-1.948c-.271-.7-.457-1.5-.511-2.67C1.012 15.361 1 14.987 1 12s.013-3.362.066-4.534s.24-1.972.511-2.672a5.4 5.4 0 0 1 1.27-1.948a5.4 5.4 0 0 1 1.947-1.269c.7-.271 1.5-.457 2.67-.511m8.98 1.98c-1.16-.053-1.508-.064-4.445-.064s-3.285.011-4.445.064c-1.073.049-1.655.228-2.043.379c-.513.2-.88.437-1.265.822a3.4 3.4 0 0 0-.822 1.265c-.151.388-.33.97-.379 2.043c-.053 1.16-.064 1.508-.064 4.445s.011 3.285.064 4.445c.049 1.073.228 1.655.379 2.043c.176.477.457.91.822 1.265c.355.365.788.646 1.265.822c.388.151.97.33 2.043.379c1.16.053 1.507.064 4.445.064s3.285-.011 4.445-.064c1.073-.049 1.655-.228 2.043-.379c.513-.2.88-.437 1.265-.822c.365-.355.646-.788.822-1.265c.151-.388.33-.97.379-2.043c.053-1.16.064-1.508.064-4.445s-.011-3.285-.064-4.445c-.049-1.073-.228-1.655-.379-2.043c-.2-.513-.437-.88-.822-1.265a3.4 3.4 0 0 0-1.265-.822c-.388-.151-.97-.33-2.043-.379m-5.85 12.345a3.669 3.669 0 0 0 4-5.986a3.67 3.67 0 1 0-4 5.986M8.002 8.002a5.654 5.654 0 1 1 7.996 7.996a5.654 5.654 0 0 1-7.996-7.996m10.906-.814a1.337 1.337 0 1 0-1.89-1.89a1.337 1.337 0 0 0 1.89 1.89" clip-rule="evenodd" /></svg>
+                                               </span>
+                                                               </a>
+                                                               <a href="#">
+                                                                   <span><svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" viewBox="0 0 448 512">
+                                       <path d="M0 0h448v512H0z" fill="none" />
+                                       <path fill="currentColor" d="M448 209.91a210.06 210.06 0 0 1-122.77-39.25v178.72A162.55 162.55 0 1 1 185 188.31v89.89a74.62 74.62 0 1 0 52.23 71.18V0h88a121 121 0 0 0 1.86 22.17A122.18 122.18 0 0 0 381 102.39a121.43 121.43 0 0 0 67 20.14Z" /></svg></span>
+                                                               </a>
+                                                               <a href="#">
+                                                                   <span><svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" viewBox="0 0 448 512">
+                                       <path d="M0 0h448v512H0z" fill="none" />
+                                       <path fill="currentColor" d="M448 209.91a210.06 210.06 0 0 1-122.77-39.25v178.72A162.55 162.55 0 1 1 185 188.31v89.89a74.62 74.62 0 1 0 52.23 71.18V0h88a121 121 0 0 0 1.86 22.17A122.18 122.18 0 0 0 381 102.39a121.43 121.43 0 0 0 67 20.14Z" /></svg></span>
+                                                               </a>
+                                        </div>
+                                    </div>
+                                    <div class="quick">
+                                        <h3>Quick Links</h3>
+                                        <ul>
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">Menu</a></li>
+                                            <li><a href="#">Specials</a></li>
+                                            <li><a href="#">About Us</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="support">
+                                        <h3>Help & Support</h3>
+                                        <ul>
+                                            <li><a href="#">Contact Us</a></li>
+                                            <li><a href="#">FAQs</a></li>
+                                            <li><a href="#">Shipping & Delivery</a></li>
+                                            <li><a href="#">Privacy Policy</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="contact">
+                                        <h3>Contact Us</h3>
+                                        <ul>
+                                            <li><a href="#"> <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.554 6.24L7.171 2.335c-.39-.45-1.105-.448-1.558.006L2.831 5.128c-.828.829-1.065 2.06-.586 3.047a29.2 29.2 0 0 0 13.561 13.58c.986.479 2.216.242 3.044-.587l2.808-2.813c.455-.455.456-1.174.002-1.564l-3.92-3.365c-.41-.352-1.047-.306-1.458.106l-1.364 1.366a.46.46 0 0 1-.553.088a14.56 14.56 0 0 1-5.36-5.367a.46.46 0 0 1 .088-.554l1.36-1.361c.412-.414.457-1.054.101-1.465" /></svg></span> +880 1234-567990</a></li>
+                                            <li><a href="#"> <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 32 32">
+	<path d="M0 0h32v32H0z" fill="none" />
+	<path fill="currentColor" d="M32 6v20c0 1.135-.865 2-2 2h-2V9.849l-12 8.62l-12-8.62V28H2c-1.135 0-2-.865-2-2V6c0-.568.214-1.068.573-1.422A1.97 1.97 0 0 1 2 4h.667L16 13.667L29.333 4H30c.568 0 1.068.214 1.427.578c.359.354.573.854.573 1.422" /></svg></span> hello@sweetscoops.com</a></li>
+                                            <li><a class="c3" href="#"> <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<circle cx="12" cy="10" r="3" />
+		<path d="M12 2a8 8 0 0 0-8 8c0 1.892.402 3.13 1.5 4.5L12 22l6.5-7.5c1.098-1.37 1.5-2.608 1.5-4.5a8 8 0 0 0-8-8" /></g></svg></span> 123 Ice Cream Street, <br> Chattogram, Bangladesh</a></li>
+                                        </ul>
+                                    </div>
+                            </div>
+                        <div class="img "></div>
+                    </div>
+            </section>
+            <div class="last-footer">
+                <p>© 2026 SweetScoops Ice Cream Shop, All Rights Reserved. ❤️</p>
+            </div>
+        </footer>
+
+</body>
+</html>
